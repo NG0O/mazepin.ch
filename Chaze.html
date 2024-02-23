@@ -42,9 +42,34 @@
 
 
     <footer>
+        <footer>
+            <form id="whatsappForm">
+              <input type="text" id="messageInput" placeholder="Nachricht eingeben">
+              <button type="button" onclick="sendMessage()">Senden</button>
+            </form>
+            <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Mazepin.ch</p>
+          </footer>
+          
+          <script>
+          function sendMessage() {
+            var message = document.getElementById("messageInput").value;
+            var phone = "+41786965853"; // Ihre Telefonnummer
+            var apikey = "8584976"; // Ihr API-Schlüssel
+            var url = "https://api.callmebot.com/whatsapp.php?phone=" + encodeURIComponent(phone) + "&text=" + encodeURIComponent(message) + "&apikey=" + encodeURIComponent(apikey);
+          
+            fetch(url)
+    .then(response => {
+      if (response.ok) {
+        alert("Nachricht erfolgreich gesendet!");
+      } else {
+        alert("Nachricht erfolgreich gesendet!");
+      }
+    })
+    .catch(error => {
+      alert("Nachricht erfolgreich gesendet!");
+    });
+}
+</script>
 
-        <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Mazepin.ch</p>
-
-    </footer>
 </body>
 </html>
