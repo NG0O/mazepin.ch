@@ -69,8 +69,9 @@ p{
 
 h1 {
   font-family: Rancho;
-  font-size: 60px;
   margin: 40px 0;
   text-align: center;
+    font-size: 400%;
+    color: rgb(255, 0, 0);
 }
 
