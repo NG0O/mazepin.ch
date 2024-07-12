@@ -67,7 +67,7 @@ p{
 
 @import "https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation";
 
-h1 {
+.font-effect-fire-animation {
   font-family: Rancho;
   margin: 40px 0;
   text-align: center;
