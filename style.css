@@ -63,5 +63,14 @@ p{
     text-decoration: none;
     font-size: 16px;
   }
- 
+
+
+@import "https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation";
+
+h1 {
+  font-family: Rancho;
+  font-size: 60px;
+  margin: 40px 0;
+  text-align: center;
+}
 
