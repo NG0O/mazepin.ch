@@ -1,101 +1,38 @@
-body{
-    background-color: #b8b884;
-    align-items: center;
-    text-align: center;
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 }
-
-h1{
-    font-size: 400%;
-    color: rgb(255, 0, 0);
-    text-align: center;
-}
-
-
-
-#mazewin{
-    height: 250px;
-}
-
-
-p{
-
-    color: rgb(34, 104, 81);
-
-}
-
-#home {
-    color: rgb(0, 8, 255);
-    font-size: x-large;
-    text-decoration: none;
-  }
-
- #blog{
-
-  color: blue;
-
- } 
-
-
-  nav {
-    background-color: #FFFF9F  ;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin: 0 auto;
-  }
-  
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  nav li {
-    margin-right: 10px;
-  }
-  
-  nav a {
-    color: #333;
-    text-decoration: none;
-    font-size: 16px;
-  }
-
-
 
 .fire {
-    color: #f5f5f5; /* Light text color */
-    text-align: center; /* Center alignment of text */
-    font-family: 'Courier New', Courier, monospace; /* Monospace font for sharp edges */
-    font-size: 400%; /* Text size */
-    /* Multi-layered text-shadow for fire effect */
-    text-shadow:
-        0px -1px 3px #eee891, /* Innermost layer - intense heat (white) */
-        0px -2px 6px #FF3, /* Second layer - core of flame (yellow) */
-        0px -6px 12px #F90, /* Middle layer - body of flame (orange) */
-        0px -10px 20px #C33; /* Outermost layer - edges of flame (red) */
-    /* Apply the "flicker" animation to the .fire class */
-    animation: flicker 2s infinite;
+  color: #f5f5f5; /* Light text color */
+  text-align: center; /* Center alignment of text */
+  font-family: 'Courier New', Courier, monospace; /* Monospace font for sharp edges */
+  font-size: 400%; /* Text size */
+  /* Multi-layered text-shadow for fire effect */
+  text-shadow:
+      0px -1px 3px #eee891, /* Innermost layer - intense heat (white) */
+      0px -2px 6px #FF3, /* Second layer - core of flame (yellow) */
+      0px -6px 12px #F90, /* Middle layer - body of flame (orange) */
+      0px -10px 20px #C33; /* Outermost layer - edges of flame (red) */
+  /* Apply the "flicker" animation to the .fire class */
+  animation: flicker 2s infinite;
 }
 
 /* Define the animation named "flicker" */
 @keyframes flicker {
-    0%, 
-    100% { 
-        text-shadow: 
-            0 -1px 3px #eee891, /* Innermost layer - intense heat (white) */
-            0 -2px 6px #FF3, /* Second layer - core of flame (yellow) */
-            0 -6px 12px #F90, /* Middle layer - body of flame (orange) */
-            0 -10px 20px #C33; /* Outermost layer - edges of flame (red) */
-    }
-    50% { 
-        text-shadow: 
-            0 -2px 6px #eee891, /* Innermost layer - intense heat (white) */
-            0 -4px 12px #FF3, /* Second layer - core of flame (yellow) */
-            0 -8px 16px #F90, /* Middle layer - body of flame (orange) */
-            0 -12px 24px #C33; /* Outermost layer - edges of flame (red) */
-    }
+  0%, 
+  100% { 
+      text-shadow: 
+          0 -1px 3px #eee891, /* Innermost layer - intense heat (white) */
+          0 -2px 6px #FF3, /* Second layer - core of flame (yellow) */
+          0 -6px 12px #F90, /* Middle layer - body of flame (orange) */
+          0 -10px 20px #C33; /* Outermost layer - edges of flame (red) */
+  }
+  50% { 
+      text-shadow: 
+          0 -2px 6px #eee891, /* Innermost layer - intense heat (white) */
+          0 -4px 12px #FF3, /* Second layer - core of flame (yellow) */
+          0 -8px 16px #F90, /* Middle layer - body of flame (orange) */
+          0 -12px 24px #C33; /* Outermost layer - edges of flame (red) */
+  }
 }
