@@ -16,6 +16,10 @@ body {
   animation: flicker 2s infinite;
 }
 
+#mazewin{
+  width: 500px;
+}
+
 @keyframes flicker {
   0%, 
   100% { 
