@@ -75,7 +75,9 @@ analytics:
 
 # Page views settings
 pageviews:
-  provider: # now only supports 'goatcounter'
+  provider: goatcounter
+  goatcounter:
+    id: mazepin.goatcounter.com  # replace with your GoatCounter code
 
 # Prefer color scheme setting.
 #
@@ -98,7 +100,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: /assets/img/MicrosoftTeams-image.png
+avatar: /assets/img/mazepin.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
