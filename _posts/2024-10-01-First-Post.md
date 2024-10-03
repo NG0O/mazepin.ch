@@ -2,10 +2,8 @@
 title: First Post
 date: 2024-10-01 24:00:00 +0000
 categories: [blog]
-tags: [blog, website, hosting, mazepin]     # TAG names should always be lowercase
+tags: [blog, website, hosting, mazepin]
 ---
-
-## Frist Post
 
 # Migrating mazepin.ch from Static HTML/CSS to Jekyll on GitHub Pages
 
@@ -21,7 +19,7 @@ Before the migration, mazepin.ch consisted of a handful of HTML and CSS files. I
 
 Here’s how the website looked in its early years:
  
-<img src="/assets/img/01/mazepin.ch_2022.png" alt="old Version" width="250">
+<img src="/assets/img/01/mazepin.ch_2022.png" alt="old Version" width="700">
 
 ## Why Jekyll and GitHub Pages?
 
@@ -58,7 +56,7 @@ During the migration, there were a few challenges I encountered:
 
 With the migration complete, mazepin.ch is now fully powered by Jekyll and hosted on GitHub Pages. The site is faster, easier to update, and more flexible for future content additions.
 
-<img src="/assets/img/01/SCR-20241003-segj(1).png" alt="new Version" width="250">
+<img src="/assets/img/01/SCR-20241003-segj(1).png" alt="new Version" width="700">
 
 ## Conclusion
 

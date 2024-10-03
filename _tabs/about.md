@@ -4,9 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 
->To view my school work (TBZ shit), visit [it.mazepin.ch](https://it.mazepin.ch).
-{: .prompt-tip }
-
 # About Me
 
 Hi, I'm Noah, a tech enthusiast and IT professional based in Switzerland. I have a passion for exploring the latest trends in technology, from software development to cybersecurity, cloud computing, and beyond. 
@@ -17,6 +14,10 @@ When I'm not working or writing, you'll find me experimenting with new technolog
 
 Feel free to reach out to me via [noah@mazepin.ch](mailto:noah@mazepin.ch).
 
+>To view my school work (TBZ shit), visit [it.mazepin.ch](https://it.mazepin.ch).
+{: .prompt-tip }
+
 Thanks for stopping by!
 
 - Noah
+
