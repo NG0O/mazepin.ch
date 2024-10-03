@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
->To view my school work (TBZ shit), visit [it.mazepin.ch](http://it.mazepin.ch).
+>To view my school work (TBZ shit), visit [it.mazepin.ch](https://it.mazepin.ch).
 {: .prompt-tip }
 
 # About Me
