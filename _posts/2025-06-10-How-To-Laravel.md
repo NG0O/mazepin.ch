@@ -5,8 +5,6 @@ categories: [blog, PHP]
 tags: [Blog, technical, mazepin, PHP]
 ---
 
-# How to Laravel
-
 ## We need:
 
 [PHP](https://www.php.net/downloads)
